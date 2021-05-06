@@ -1,11 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T08:58:40.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="z0NCxH_-IiI3Tb1c8eQX" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-06T09:07:13.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="vSOh8QlI_D9YUeNT4nL3" version="14.6.10" type="github">
   <diagram id="eMDRjAzCHqSsySHm6xyu" name="Page-1">
-    <mxGraphModel dx="1422" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="j4jTZ7e2hNYMvXi3JBT9-1" value="Covid-19 Information Center" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="224" height="50" as="geometry" />
+          <mxGeometry x="320" y="70" width="224" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-2" value="Frontend&lt;br&gt;React and Material Ui" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="224" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-3" value="Backend&lt;br&gt;when Login request come user will be kik in the Authontication flow automatic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j4jTZ7e2hNYMvXi3JBT9-1" target="j4jTZ7e2hNYMvXi3JBT9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="150" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-7" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j4jTZ7e2hNYMvXi3JBT9-1" target="j4jTZ7e2hNYMvXi3JBT9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="430" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-8" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="j4jTZ7e2hNYMvXi3JBT9-7">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-11" value="Google Oauth 2&lt;br&gt;Passport Js And Google Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="224" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-12" value="MongoDb ATlas&lt;br&gt;Save user data to ckeck later" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="440" width="224" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-13" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j4jTZ7e2hNYMvXi3JBT9-3" target="j4jTZ7e2hNYMvXi3JBT9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="430" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-14" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="j4jTZ7e2hNYMvXi3JBT9-13">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-15" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j4jTZ7e2hNYMvXi3JBT9-11" target="j4jTZ7e2hNYMvXi3JBT9-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="562" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4jTZ7e2hNYMvXi3JBT9-16" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="j4jTZ7e2hNYMvXi3JBT9-15">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
